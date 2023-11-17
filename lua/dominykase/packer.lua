@@ -45,4 +45,6 @@ return require('packer').startup(function(use)
 	}
 
     use 'airblade/vim-gitgutter'
+
+    use 'lukas-reineke/indent-blankline.nvim'
 end)
