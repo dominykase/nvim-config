@@ -47,4 +47,6 @@ return require('packer').startup(function(use)
     use 'airblade/vim-gitgutter'
 
     use 'lukas-reineke/indent-blankline.nvim'
+
+    use 'hrsh7th/cmp-cmdline'
 end)
