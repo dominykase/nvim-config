@@ -49,4 +49,9 @@ return require('packer').startup(function(use)
     use 'lukas-reineke/indent-blankline.nvim'
 
     use 'hrsh7th/cmp-cmdline'
+
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
 end)
