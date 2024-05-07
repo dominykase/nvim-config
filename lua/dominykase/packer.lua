@@ -56,4 +56,6 @@ return require('packer').startup(function(use)
     }
 
     use 'terrortylor/nvim-comment'
+
+    use 'folke/trouble.nvim'
 end)
