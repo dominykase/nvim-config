@@ -60,4 +60,6 @@ return require('packer').startup(function(use)
     use 'folke/trouble.nvim'
 
     use 'tpope/vim-rails'
+
+    use 'github/copilot.vim'
 end)
